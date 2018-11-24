@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Neo">
+      <HintPath>..\..\..\neo\neo\bin\Debug\netstandard2.0\Neo.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo.VM">
+      <HintPath>..\..\..\neo-vm\src\neo-vm\bin\Debug\netstandard1.6\Neo.VM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
